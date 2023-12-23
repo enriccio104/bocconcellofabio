@@ -6,7 +6,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #202020;
     color: #fff;
     text-align: center;
     padding: 10px;
@@ -46,7 +46,7 @@ nav {
 }
 
 header {
-    background-color: #333;
+    background-color: #202020;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -58,13 +58,14 @@ section {
 }
 
 .service {
-    border: 1px solid #ddd;
+    border: 1px solid #202020;
     padding: 10px;
     margin: 10px;
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s;
     display: inline-block;
+    border-radius: 20px;
 }
 
 .service img {
@@ -72,6 +73,7 @@ section {
     max-height: 200px;
     width: auto;
     height: auto;
+    border-radius: 20px;
 }
 
 .service:hover {
@@ -79,7 +81,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #202020;
     color: #fff;
     text-align: center;
     padding: 10px;
