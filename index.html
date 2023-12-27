@@ -58,7 +58,6 @@
     <script>
 gsap.from("header", { duration: 1, opacity: 0, y: -50, ease: "power2.out" });
 
-
 gsap.to(".service", {
   duration: 0.3,
   y: -20,
@@ -68,18 +67,9 @@ gsap.to(".service", {
   stagger: 0.3, 
 });
 
-
-
 gsap.from("footer", { duration: 1, opacity: 0, y: 50, ease: "power2.out" });
 
-
-
-// Creazione di una timeline
 const timeline = gsap.timeline();
-
-// Aggiungi le animazioni alla timeline in sequenza
-
-
 
 timeline.from("header h1", {
   duration: 1.5, 
@@ -98,10 +88,7 @@ timeline.from("header h1", {
   ease: "power2.out",
 });
 
-
-// Avvia la timeline
 timeline.play();
-
 
     </script>
 </body>
